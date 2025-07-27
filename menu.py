@@ -16,7 +16,11 @@ class Menu:
         return None
 
     def draw(self):
-        pyxel.text(50, 30, "Bounce Modern", 7)
+        pyxel.cls(1)
+        pyxel.rect(10, 10, 140, 100, 5)
+        pyxel.rectb(10, 10, 140, 100, 6)
+
+        pyxel.text(50, 30, "BOUNCE MODERN", 7)
         pyxel.text(50, 50, "1. Main", 7)
         pyxel.text(50, 60, "2. Pilih Skin", 7)
         pyxel.text(50, 70, "3. Leaderboard", 7)

@@ -128,6 +128,10 @@ class Game:
             self.platforms = [(0, 110, 160, 10), (20, 100, 120, 10), (60, 70, 100, 10)]  # (x, y, width, height)
             self.enemies = [(40, 90, 10, 10), (90, 60, 10, 10)]  # (x, y, width, height)
             self.finish = (130, 40, 10, 10)  # (x, y, width, height)
+        elif self.level == 4:
+            self.platforms = [(0, 110, 160, 10), (20, 100, 120, 10), (60, 70, 100, 10)]  # (x, y, width, height)
+            self.enemies = [(40, 90, 10, 10), (90, 60, 10, 10)]  # (x, y, width, height)
+            self.finish = (130, 40, 10, 10)  # (x, y, width, height)
         self.game_over = False
         self.win = False
         self.total_score = 0
